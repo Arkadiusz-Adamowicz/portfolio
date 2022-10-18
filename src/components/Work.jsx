@@ -101,7 +101,7 @@ const Work = () => {
             {/* hover effect */}
             <div className='opacity-0 group-hover:opacity-100 transition-all duration-500'>
               <span className='text-2xl font-bold text-white tracking-wider'>
-                Landing Website
+                Website
               </span>
               <div className='pt-8 text-center'>
                 <a href='https://pawelstopka.netlify.app/'>
@@ -125,7 +125,7 @@ const Work = () => {
             {/* hover effect */}
             <div className='opacity-0 group-hover:opacity-100 transition-all duration-500'>
               <span className='text-2xl font-bold text-white tracking-wider'>
-                Defi App
+                Website
               </span>
               <div className='pt-8 text-center'>
                 <a href='https://defi-app-arek.netlify.app'>
