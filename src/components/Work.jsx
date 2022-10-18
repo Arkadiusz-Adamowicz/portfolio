@@ -53,7 +53,7 @@ const Work = () => {
             {/* hover effect */}
             <div className='opacity-0 group-hover:opacity-100 transition-all duration-500'>
               <span className='text-2xl font-bold text-white tracking-wider'>
-                Website (Single Page App)
+                Website App
               </span>
               <div className='pt-8 text-center'>
                 <a href='https://globe-arek.netlify.app'>
@@ -101,7 +101,7 @@ const Work = () => {
             {/* hover effect */}
             <div className='opacity-0 group-hover:opacity-100 transition-all duration-500'>
               <span className='text-2xl font-bold text-white tracking-wider'>
-                Website ( React-Router )
+                Website App
               </span>
               <div className='pt-8 text-center'>
                 <a href='https://pawelstopka.netlify.app/'>
@@ -125,7 +125,7 @@ const Work = () => {
             {/* hover effect */}
             <div className='opacity-0 group-hover:opacity-100 transition-all duration-500'>
               <span className='text-2xl font-bold text-white tracking-wider'>
-                Website (Single Page App)
+                Website App
               </span>
               <div className='pt-8 text-center'>
                 <a href='https://defi-app-arek.netlify.app'>
