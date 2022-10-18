@@ -16,7 +16,7 @@ const About = () => {
             <p className='text-[#8892b0]'>Hi I'm Arek nice to meet you.</p>
           </div>
           <div className='col-span-1'>
-            <p className='sm:text-lg px-4 eading-6 text-[#ccd6f6]'>
+            <p className='sm:text-lg px-4 eading-6 text-[#ccd6f6] md:leading-[2rem] leading-[1.5rem]'>
               I am passionate about creating modern websites based on HTML, CSS,
               JavaScript, React JS technologies. I am constantly developing my
               knowledge and skills in this area. I am enthusiast of teamwork

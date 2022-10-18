@@ -24,7 +24,7 @@ const Home = () => {
             <h2 className='text-3xl sm:text-5xl text-[#8892b0] font-bold py-1'>
               I am Front-End Developer
             </h2>
-            <p className='text-sm sm:text-lg text-[#ccd6f6] py-4 max-w-[700px]'>
+            <p className='text-sm sm:text-lg text-[#ccd6f6] py-4 max-w-[700px] md:leading-[2rem] leading-[1.5rem]'>
               I am Self-taught Front-End developer who, through continuous
               learning, improves his skills in React JS technology. I'm focusing
               on creating user-friendly responsive websites and web
