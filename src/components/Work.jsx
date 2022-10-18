@@ -21,7 +21,7 @@ const Work = () => {
 
         {/* grid */}
         <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 md:gap-6'>
-          {/* grit-item */}
+          {/* grid-item */}
           <div
             style={{ backgroundImage: `url(${WorkImg3})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center text-center mx-auto content-div p-3'
