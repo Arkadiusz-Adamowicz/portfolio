@@ -15,14 +15,14 @@ const Home = () => {
             alt=''
           />
         </div>
-        <div className='flex justify-center items-center'>
+        <div className='flex justify-center items-center gap-5'>
           <div>
             <p className='text-sm sm:text-lg  text-red-600 py-1'>My name is</p>
             <h1 className='text-4xl sm:text-6xl text-[#ccd6f6] font-bold'>
               Arkadiusz Adamowicz
             </h1>
             <h2 className='text-3xl sm:text-5xl text-[#8892b0] font-bold py-1'>
-              I am Front-End Developer
+              I am <span className='text-red-600 font-thin'>Front-End</span> Developer
             </h2>
             <p className='text-sm sm:text-lg text-[#ccd6f6] py-4 max-w-[700px] md:leading-[2rem] leading-[1.5rem]'>
               I am Self-taught Front-End developer who, through continuous
