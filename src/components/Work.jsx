@@ -3,7 +3,7 @@ import WorkImg from '../assets/movie.png';
 import WorkImg1 from '../assets/globe.png';
 import WorkImg2 from '../assets/weather.png';
 import WorkImg3 from '../assets/netflix.png';
-import WorkImg4 from '../assets/crypto.png';
+import WorkImg4 from '../assets/landing.png';
 import WorkImg5 from '../assets/defi.png';
 
 const Work = () => {

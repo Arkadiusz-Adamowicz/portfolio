@@ -24,35 +24,35 @@ const Skills = () => {
       </div>
 
       <div className='w-full grid grid-cols-2 sm:gap-6 gap-4 sm:grid-cols-4 max-w-[1000px] mb-6 text-center p-6'>
-        <div className='shadow-md shadow-[#040c16]'>
+        <div className='shadow-md shadow-[#040c16] hover:scale-110 transition-all duration-200 hover:bg-gray-700 flex flex-col items-center w-full pt-4'>
           <img className='mx-auto w-20' src={HTML} alt='Html icon' />
           <p className='my-4'>HTML</p>
         </div>
-        <div className='shadow-md shadow-[#040c16]'>
+        <div className='shadow-md shadow-[#040c16] hover:scale-110 transition-all duration-200 hover:bg-gray-700 flex flex-col items-center w-full pt-4'>
           <img className='mx-auto w-20' src={CSS} alt='Html icon' />
           <p className='my-4'>CSS</p>
         </div>
-        <div className='shadow-md shadow-[#040c16]'>
+        <div className='shadow-md shadow-[#040c16] hover:scale-110 transition-all duration-200 hover:bg-gray-700 flex flex-col items-center w-full pt-4'>
           <img className='mx-auto w-20' src={Javascript} alt='Html icon' />
           <p className='my-4'>Javascript</p>
         </div>
-        <div className='shadow-md shadow-[#040c16]'>
+        <div className='shadow-md shadow-[#040c16] hover:scale-110 transition-all duration-200 hover:bg-gray-700 flex flex-col items-center w-full pt-4'>
           <img className='mx-auto w-20' src={ReactImg} alt='Html icon' />
           <p className='my-4'>React</p>
         </div>
-        <div className='shadow-md shadow-[#040c16]'>
+        <div className='shadow-md shadow-[#040c16] hover:scale-110 transition-all duration-200 hover:bg-gray-700 flex flex-col items-center w-full pt-4'>
           <img className='mx-auto w-20' src={Node} alt='Html icon' />
           <p className='my-4'>Node</p>
         </div>
-        <div className='shadow-md shadow-[#040c16]'>
+        <div className='shadow-md shadow-[#040c16] hover:scale-110 transition-all duration-200 hover:bg-gray-700 flex flex-col items-center w-full pt-4'>
           <img className='mx-auto w-20' src={Github} alt='Html icon' />
           <p className='my-4'>Github</p>
         </div>
-        <div className='shadow-md shadow-[#040c16]'>
+        <div className='shadow-md shadow-[#040c16] hover:scale-110 transition-all duration-200 hover:bg-gray-700 flex flex-col items-center w-full pt-4'>
           <img className='mx-auto w-20' src={Firebase} alt='Html icon' />
           <p className='my-4'>Firebase</p>
         </div>
-        <div className='shadow-md shadow-[#040c16]'>
+        <div className='shadow-md shadow-[#040c16] hover:scale-110 transition-all duration-200 hover:bg-gray-700 flex flex-col items-center w-full pt-4'>
           <img className='mx-auto w-20' src={Tailwind} alt='Html icon' />
           <p className='my-4'>Tailwind</p>
         </div>
