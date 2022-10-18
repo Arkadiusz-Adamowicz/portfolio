@@ -18,7 +18,7 @@ const About = () => {
           <div className='col-span-1'>
             <p className='sm:text-lg px-4 eading-6 text-[#ccd6f6] md:leading-[2rem] leading-[1.5rem]'>
               I am passionate about creating modern websites based on HTML, CSS,
-              JavaScript, React JS technologies. I am constantly developing my
+              JavaScript, React JS framework. I am constantly developing my
               knowledge and skills in this area. I am enthusiast of teamwork
               solving problems.
             </p>

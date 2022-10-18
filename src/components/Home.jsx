@@ -26,9 +26,10 @@ const Home = () => {
             </h2>
             <p className='text-sm sm:text-lg text-[#ccd6f6] py-4 max-w-[700px] md:leading-[2rem] leading-[1.5rem]'>
               I am Self-taught Front-End developer who, through continuous
-              learning, improves his skills in React JS technology. I'm focusing
+              learning, improves his skills in programming. I'm focusing
               on creating user-friendly responsive websites and web
-              applications.
+              applications in React JS.
+              
             </p>
             <div>
               <button className='group border-[1px] border-[#ccd6f6] px-6 py-3 my-3 flex items-center hover:bg-red-600 hover:border-red-600 rounded transition-colors duration-200 text-[#ccd6f6]'>

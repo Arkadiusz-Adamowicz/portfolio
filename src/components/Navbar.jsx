@@ -72,8 +72,8 @@ const Navbar = () => {
           <ul
             className={
               !nav
-                ? 'md:hidden absolute text-[#ccd6f6] top-0 left-[-100%] w-full h-screen flex flex-col justify-center items-center bg-[#0a192f] pb-[8rem]'
-                : 'md:hidden absolute text-[#ccd6f6] top-0 left-0 w-full h-screen flex flex-col justify-center items-center bg-[#0a192f] pb-[8rem]'
+                ? 'md:hidden absolute text-[#ccd6f6] top-0 left-[-100%] w-full h-screen flex flex-col justify-center items-center bg-[#0a192f]'
+                : 'md:hidden absolute text-[#ccd6f6] top-0 left-0 w-full h-screen flex flex-col justify-center items-center bg-[#0a192f]'
             }
           >
             <li className='my-6 text-2xl font-bold hover:text-red-600 transition duration-200'>
@@ -132,9 +132,9 @@ const Navbar = () => {
         {/* Hamburger */}
         <div className='md:hidden text-[#ccd6f6] z-10' onClick={HandleNav}>
           {!nav ? (
-            <FaBars className='cursor-pointer' size={20} />
+            <FaBars className='cursor-pointer' size={30} />
           ) : (
-            <FaTimes className='cursor-pointer' size={20} />
+            <FaTimes className='cursor-pointer' size={30} />
           )}
         </div>
       </div>
