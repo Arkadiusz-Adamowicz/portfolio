@@ -5,7 +5,7 @@ import Javascript from '../assets/javascript.png';
 import ReactImg from '../assets/react.png';
 import Netlify from '../assets/netlify.webp';
 import Github from '../assets/github.png';
-import Firebase from '../assets/firebase.png';
+import Rapid from '../assets/rapid.png';
 import Tailwind from '../assets/tailwind.png';
 
 const Skills = () => {
@@ -49,8 +49,8 @@ const Skills = () => {
           <p className='my-4'>Github</p>
         </div>
         <div className='shadow-md shadow-[#040c16] hover:scale-110 transition-all duration-200 hover:bg-gray-700 flex flex-col items-center w-full pt-4'>
-          <img className='mx-auto w-20' src={Firebase} alt='Html icon' />
-          <p className='my-4'>Firebase</p>
+          <img className='mx-auto w-20' src={Rapid} alt='Html icon' />
+          <p className='my-4'>Rapid API</p>
         </div>
         <div className='shadow-md shadow-[#040c16] hover:scale-110 transition-all duration-200 hover:bg-gray-700 flex flex-col items-center w-full pt-4'>
           <img className='mx-auto w-20' src={Tailwind} alt='Html icon' />
