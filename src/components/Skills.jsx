@@ -3,7 +3,7 @@ import HTML from '../assets/html.png';
 import CSS from '../assets/css.png';
 import Javascript from '../assets/javascript.png';
 import ReactImg from '../assets/react.png';
-import Node from '../assets/node.png';
+import Netlify from '../assets/netlify.webp';
 import Github from '../assets/github.png';
 import Firebase from '../assets/firebase.png';
 import Tailwind from '../assets/tailwind.png';
@@ -41,8 +41,8 @@ const Skills = () => {
           <p className='my-4'>React</p>
         </div>
         <div className='shadow-md shadow-[#040c16] hover:scale-110 transition-all duration-200 hover:bg-gray-700 flex flex-col items-center w-full pt-4'>
-          <img className='mx-auto w-20' src={Node} alt='Html icon' />
-          <p className='my-4'>Node</p>
+          <img className='mx-auto w-20' src={Netlify} alt='Html icon' />
+          <p className='my-4'>Netlify</p>
         </div>
         <div className='shadow-md shadow-[#040c16] hover:scale-110 transition-all duration-200 hover:bg-gray-700 flex flex-col items-center w-full pt-4'>
           <img className='mx-auto w-20' src={Github} alt='Html icon' />
