@@ -22,7 +22,9 @@
 }
 
 .content-div:hover {
-    background: linear-gradient(337deg, rgba(255,255,255,0.6965379901960784) 0%, rgba(42,46,253,1) 100%)
-  !important;
+  background: linear-gradient(
+    337deg,
+    rgba(255, 255, 255, 0.6965379901960784) 0%,
+    rgba(42, 46, 253, 1) 100%
+  ) !important;
 }
- 
