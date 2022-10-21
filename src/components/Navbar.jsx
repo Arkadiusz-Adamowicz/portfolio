@@ -24,6 +24,7 @@ const Navbar = () => {
             <a
               href='https://arkadiusz-adamowicz-cv.netlify.app'
               target='_blank'
+              rel='noreferrer'
               className='flex mr-1'
             >
               <CgFileDocument size={25} className='text-[#ccd6f6]' />
@@ -34,6 +35,7 @@ const Navbar = () => {
             <a
               href='https://github.com/Arkadiusz-Adamowicz'
               target='_blank'
+              rel='noreferrer'
               className='flex mr-1'
             >
               <BsGithub size={25} className='text-[#ccd6f6]' />
@@ -44,6 +46,7 @@ const Navbar = () => {
             <a
               href='mailto:arek.adamowicz81@gmail.com'
               target='_blank'
+              rel='noreferrer'
               className='flex mr-1'
             >
               <MdOutlineAlternateEmail size={25} className='text-[#ccd6f6]' />
