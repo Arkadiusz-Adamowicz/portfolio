@@ -20,7 +20,7 @@ const Navbar = () => {
               A
             </h1>
           </div>
-          <div className='flex gap-2'>
+          <div className='md:flex gap-2 hidden'>
             <a
               href='https://arkadiusz-adamowicz-cv.netlify.app'
               target='_blank'
