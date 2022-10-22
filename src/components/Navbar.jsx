@@ -11,15 +11,17 @@ const Navbar = () => {
   const CloseMenu = () => setNav(false);
 
   return (
-    <div className='md:fixed md:shadow-xl w-full h-[80px] bg-[#0a192f] text-white'>
+    <div className='md:fixed md:shadow-xl w-full h-[80px] bg-[#0a192f] text-white fixed'>
       <div className='flex items-center justify-between px-4 mx-auto'>
         <div className='flex justify-between items-center'>
-          <div className='flex mb-2 md:px-2 mt-1'>
-            <h1 className='text-5xl font-bold text-[#ccd6f6] mt-2'>A</h1>
-            <h1 className='text-5xl font-bold text-red-600 mt-[20px] ml-[-10px]'>
-              A
-            </h1>
-          </div>
+          <Link to='home' smooth={true} offset={-200} duration={300}>
+            <div className='flex mb-2 md:px-2 mt-1 cursor-pointer'>
+              <h1 className='text-5xl font-bold text-[#ccd6f6] mt-2'>A</h1>
+              <h1 className='text-5xl font-bold text-red-600 mt-[20px] ml-[-10px]'>
+                A
+              </h1>
+            </div>
+          </Link>
           <div className='md:flex gap-2 hidden'>
             <a
               href='https://arkadiusz-adamowicz-cv.netlify.app'
