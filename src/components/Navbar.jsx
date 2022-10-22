@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { Link } from 'react-scroll';
+
 import { CgFileDocument } from 'react-icons/cg';
 import { BsGithub } from 'react-icons/bs';
 import { MdOutlineAlternateEmail } from 'react-icons/md';
@@ -11,7 +12,7 @@ const Navbar = () => {
   const CloseMenu = () => setNav(false);
 
   return (
-    <div className='md:fixed md:shadow-xl w-full h-[80px] bg-[#0a192f] text-white fixed'>
+    <div className='md:fixed md:shadow-xl w-full h-[80px] bg-[#0a192f] text-white'>
       <div className='flex items-center justify-between px-4 mx-auto'>
         <div className='flex justify-between items-center'>
           <Link to='home' smooth={true} offset={-200} duration={300}>
