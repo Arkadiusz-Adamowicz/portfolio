@@ -25,7 +25,7 @@ const Work = () => {
               style={{ backgroundImage: `url(${WorkImg})` }}
               className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center text-center mx-auto content-div p-3'
             >
-              <div>
+              
                 <div className='opacity-0 group-hover:opacity-100 transition-all duration-500'>
                   <span className='text-2xl font-bold text-white tracking-wider'>
                     Redux Store App
@@ -52,16 +52,8 @@ const Work = () => {
                   </div>
                 </div>
               </div>
-            </div>
-            <div className='col-span-2'>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
-                quibusdam accusantium similique iure voluptates accusamus ipsum
-                eveniet, repellendus sint, laudantium officiis ad delectus a
-                odio, iusto autem in dolor ea quo? Earum, pariatur vel eaque
-                cumque harum ex molestiae necessitatibus.
-              </p>
-            </div>
+           
+           
           </div>
           {/* ----------------------- MOVIE APP ------------------------------- */}
           <div className='flex flex-wrap  w-[400px] gap-8 md:gap-6'>
@@ -69,7 +61,6 @@ const Work = () => {
               style={{ backgroundImage: `url(${WorkImg1})` }}
               className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center text-center mx-auto content-div p-3'
             >
-              <div>
                 <div className='opacity-0 group-hover:opacity-100 transition-all duration-500'>
                   <span className='text-2xl font-bold text-white tracking-wider'>
                     Movies Search App
@@ -97,23 +88,14 @@ const Work = () => {
                 </div>
               </div>
             </div>
-            <div className='col-span-2'>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
-                quibusdam accusantium similique iure voluptates accusamus ipsum
-                eveniet, repellendus sint, laudantium officiis ad delectus a
-                odio, iusto autem in dolor ea quo? Earum, pariatur vel eaque
-                cumque harum ex molestiae necessitatibus.
-              </p>
-            </div>
-          </div>
+           
+         
           {/* ----------------------- LANDING PAGE WITH FILTER SYSTEM  ------------------------------- */}
           <div className='flex flex-wrap  w-[400px] gap-8 md:gap-6'>
             <div
               style={{ backgroundImage: `url(${WorkImg2})` }}
               className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center text-center mx-auto content-div p-3'
             >
-              <div>
                 <div className='opacity-0 group-hover:opacity-100 transition-all duration-500'>
                   <span className='text-2xl font-bold text-white tracking-wider'>
                     Landing Page With Filter Products
@@ -138,26 +120,16 @@ const Work = () => {
                       </button>
                     </a>
                   </div>
-                </div>
-              </div>
+                </div>       
             </div>
-            <div className='col-span-2'>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
-                quibusdam accusantium similique iure voluptates accusamus ipsum
-                eveniet, repellendus sint, laudantium officiis ad delectus a
-                odio, iusto autem in dolor ea quo? Earum, pariatur vel eaque
-                cumque harum ex molestiae necessitatibus.
-              </p>
-            </div>
+           
           </div>
           {/* ----------------------- LANDING PAGE WITH ANIMATIONS  ------------------------------- */}
           <div className='flex flex-wrap  w-[400px] gap-8 md:gap-6'>
             <div
               style={{ backgroundImage: `url(${WorkImg3})` }}
               className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center text-center mx-auto content-div p-3'
-            >
-              <div>
+            >      
                 <div className='opacity-0 group-hover:opacity-100 transition-all duration-500'>
                   <span className='text-2xl font-bold text-white tracking-wider'>
                     Landing Page With Animations
@@ -183,16 +155,6 @@ const Work = () => {
                     </a>
                   </div>
                 </div>
-              </div>
-            </div>
-            <div className='col-span-2'>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
-                quibusdam accusantium similique iure voluptates accusamus ipsum
-                eveniet, repellendus sint, laudantium officiis ad delectus a
-                odio, iusto autem in dolor ea quo? Earum, pariatur vel eaque
-                cumque harum ex molestiae necessitatibus.
-              </p>
             </div>
           </div>
         </div>
