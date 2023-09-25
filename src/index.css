@@ -29,10 +29,10 @@
   ) !important;
 }
 
-.nav-item a:hover {
-  color: #dc2626;
+li:hover {
+  color: red;
 }
 
-.nav-item .active {
-  color: #dc2626;
+.active {
+  color: red;
 }

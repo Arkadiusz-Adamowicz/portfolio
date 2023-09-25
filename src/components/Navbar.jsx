@@ -8,8 +8,13 @@ import { MdOutlineAlternateEmail } from 'react-icons/md';
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
+  const [active, setActive] = useState('');
   const HandleNav = () => setNav(!nav);
   const CloseMenu = () => setNav(false);
+
+  const handleClick = e => {
+    setActive(e.target.id);
+  };
 
   return (
     <div className='md:fixed md:shadow-xl w-full h-[80px] bg-[#0a192f] text-white'>
@@ -23,7 +28,7 @@ const Navbar = () => {
               </h1>
             </div>
           </Link>
-          <div className='md:flex gap-2 hidden'>
+          <div className='md:flex ml-2 gap-4 hidden'>
             <a
               href='https://arkadiusz-adamowicz-cv.netlify.app'
               target='_blank'
@@ -53,7 +58,7 @@ const Navbar = () => {
               className='flex mr-1'
             >
               <MdOutlineAlternateEmail size={25} className='text-[#ccd6f6]' />
-              <p className='ml-2 text-[#ccd6f6]  hover:text-red-600 transition-all duration-100 font-semibold'>
+              <p className=' text-[#ccd6f6]  hover:text-red-600 transition-all duration-100 font-semibold'>
                 Email
               </p>
             </a>
@@ -62,30 +67,67 @@ const Navbar = () => {
 
         {/* Menu */}
         <div className='hidden md:flex'>
-          <ul className='flex text-[#ccd6f6] font-bold'>
-            <li className='nav-item'>
-              <Link to='home' smooth={true} duration={500}>
+          <ul className='flex text-[#ccd6f6] font-bold gap-1'>
+            <li className='transitio-all duration-200 '>
+              <Link
+                to='home'
+                smooth={true}
+                duration={500}
+                className={active === '1' ? 'active' : ''}
+                id={'1'}
+                onClick={handleClick}
+              >
                 Home
               </Link>
             </li>
-            <li className='nav-item'>
-              <Link to='about' smooth={true} duration={500}>
+            <li className='transition duration-200 '>
+              <Link
+                to='about'
+                smooth={true}
+                duration={500}
+                className={active === '2' ? 'active' : ''}
+                id={'2'}
+                onClick={handleClick}
+              >
                 About
               </Link>
             </li>
-            <li className='nav-item'>
-              <Link to='skills' smooth={true} offset={-140} duration={500}>
+            <li className='transition duration-200 '>
+              <Link
+                to='skills'
+                smooth={true}
+                offset={-140}
+                duration={500}
+                className={active === '3' ? 'active' : ''}
+                id={'3'}
+                onClick={handleClick}
+              >
                 Skills
               </Link>
             </li>
-            <li className='nav-item'>
-              {' '}
-              <Link to='work' smooth={true} offset={-90} duration={500}>
+            <li className='transition duration-200 '>
+              <Link
+                to='work'
+                smooth={true}
+                offset={-90}
+                duration={500}
+                className={active === '4' ? 'active' : ''}
+                id={'4'}
+                onClick={handleClick}
+              >
                 Work
               </Link>
             </li>
-            <li className=' transition duration-200 nav-item'>
-              <Link to='contact' smooth={true} offset={-10} duration={500}>
+            <li className='transition duration-200 '>
+              <Link
+                to='contact'
+                smooth={true}
+                offset={-10}
+                duration={500}
+                className={active === '5' ? 'active' : ''}
+                id={'5'}
+                onClick={handleClick}
+              >
                 Contact
               </Link>
             </li>
@@ -108,7 +150,14 @@ const Navbar = () => {
               </h1>
             </div>
             <li className='my-6 text-2xl font-bold hover:text-red-600 transition duration-200'>
-              <Link onClick={CloseMenu} to='home' smooth={true} duration={500}>
+              <Link
+                onClick={CloseMenu}
+                to='home'
+                smooth={true}
+                duration={500}
+                className={active === '1' ? 'active' : ''}
+                id={'1'}
+              >
                 Home
               </Link>
             </li>
