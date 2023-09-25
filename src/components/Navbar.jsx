@@ -80,7 +80,7 @@ const Navbar = () => {
             </li>
             <li className='nav-item'>
               {' '}
-              <Link to='work' smooth={true} offset={-140} duration={500}>
+              <Link to='work' smooth={true} offset={-90} duration={500}>
                 Work
               </Link>
             </li>

@@ -30,7 +30,7 @@ const Home = () => {
               React JS.
             </p>
             <div>
-              <Link to='work' smooth={true} offset={-140} duration={500}>
+              <Link to='work' smooth={true} offset={-90} duration={500}>
                 <button className='group border-[1px] border-[#ccd6f6] px-6 py-3 my-3 flex items-center hover:bg-red-600 hover:border-red-600 rounded-md transition-colors duration-200 text-[#ccd6f6]'>
                   View Work
                 </button>
