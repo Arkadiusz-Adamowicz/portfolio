@@ -21,7 +21,7 @@ const Navbar = () => {
       <div className='flex items-center justify-between px-4 mx-auto'>
         <div className='flex justify-between items-center'>
           <Link to='home' smooth={true} offset={-200} duration={300}>
-            <div className='flex pr-3 cursor-pointer'>
+            <div className='flex pr-3 cursor-pointer items-center mb-2'>
               <h1 className='text-4xl font-bold text-[#ccd6f6] mt-2'>A</h1>
               <h1 className='text-4xl font-bold text-red-600 mt-[20px] ml-[-10px]'>
                 A
