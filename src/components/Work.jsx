@@ -4,6 +4,7 @@ import WorkImg1 from '../assets/movies.png';
 import WorkImg2 from '../assets/best.png';
 import WorkImg3 from '../assets/stopka.png';
 import WorkImg4 from '../assets/zakupy.png';
+import WorkImg5 from '../assets/crypto.png';
 
 const Work = () => {
   return (
@@ -175,6 +176,39 @@ const Work = () => {
                   </a>
                   <a
                     href='https://github.com/Arkadiusz-Adamowicz/zakupki'
+                    target='_blank'
+                    rel='noreferrer'
+                  >
+                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                      Code
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* ----------------------- CRYPTO APP  ------------------------------- */}
+          <div className='flex flex-wrap  w-[300px] gap-8 md:gap-6'>
+            <div
+              style={{ backgroundImage: `url(${WorkImg5})` }}
+              className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center text-center mx-auto content-div p-3'
+            >
+              <div className='opacity-0 group-hover:opacity-100 transition-all duration-500'>
+                <span className='text-2xl font-bold text-white tracking-wider'>
+                  Crypto Web App
+                </span>
+                <div className='pt-8 text-center'>
+                  <a
+                    href='https://crypto-app-arek.netlify.app/'
+                    target='_blank'
+                    rel='noreferrer'
+                  >
+                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                      Demo
+                    </button>
+                  </a>
+                  <a
+                    href='https://github.com/Arkadiusz-Adamowicz/crypto-app/'
                     target='_blank'
                     rel='noreferrer'
                   >
