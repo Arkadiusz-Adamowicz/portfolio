@@ -4,7 +4,7 @@ import WorkImg1 from '../assets/movies.png';
 import WorkImg2 from '../assets/best.png';
 import WorkImg3 from '../assets/stopka.png';
 import WorkImg4 from '../assets/zakupy.png';
-import WorkImg5 from '../assets/crypto.png';
+import WorkImg5 from '../assets/disney.png';
 
 const Work = () => {
   return (
@@ -187,7 +187,7 @@ const Work = () => {
               </div>
             </div>
           </div>
-          {/* ----------------------- CRYPTO APP  ------------------------------- */}
+          {/* ----------------------- DISNEY CLONE WEBSITE  ------------------------------- */}
           <div className='flex flex-wrap  w-[300px] gap-8 md:gap-6'>
             <div
               style={{ backgroundImage: `url(${WorkImg5})` }}
@@ -195,11 +195,11 @@ const Work = () => {
             >
               <div className='opacity-0 group-hover:opacity-100 transition-all duration-500'>
                 <span className='text-2xl font-bold text-white tracking-wider'>
-                  Crypto Web App
+                  Disney Clone Website
                 </span>
                 <div className='pt-8 text-center'>
                   <a
-                    href='https://crypto-app-arek.netlify.app/'
+                    href='https://disney-arek.netlify.app/'
                     target='_blank'
                     rel='noreferrer'
                   >
@@ -208,7 +208,7 @@ const Work = () => {
                     </button>
                   </a>
                   <a
-                    href='https://github.com/Arkadiusz-Adamowicz/crypto-app/'
+                    href='https://github.com/Arkadiusz-Adamowicz/disney'
                     target='_blank'
                     rel='noreferrer'
                   >
