@@ -24,7 +24,7 @@ const Work = () => {
 
           <div className='flex flex-wrap w-[300px] gap-8 md:gap-6'>
             <div
-              style={{ backgroundImage: `url(${WorkImg})` }}
+              style={{ backgroundImage: `url(${WorkImg})`, objectFit: 'cover' }}
               className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center text-center mx-auto content-div p-3'
             >
               <div className='opacity-0 group-hover:opacity-100 transition-all duration-500'>
@@ -57,7 +57,10 @@ const Work = () => {
           {/* ----------------------- GAMES APP ------------------------------- */}
           <div className='flex flex-wrap  w-[300px] gap-8 md:gap-6'>
             <div
-              style={{ backgroundImage: `url(${WorkImg1})` }}
+              style={{
+                backgroundImage: `url(${WorkImg1})`,
+                objectFit: 'cover',
+              }}
               className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center text-center mx-auto content-div p-3'
             >
               <div className='opacity-0 group-hover:opacity-100 transition-all duration-500'>
@@ -91,7 +94,10 @@ const Work = () => {
           {/* ----------------------- LANDING PAGE WITH FILTER SYSTEM  ------------------------------- */}
           <div className='flex flex-wrap  w-[300px] gap-8 md:gap-6'>
             <div
-              style={{ backgroundImage: `url(${WorkImg2})` }}
+              style={{
+                backgroundImage: `url(${WorkImg2})`,
+                objectFit: 'cover',
+              }}
               className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center text-center mx-auto content-div p-3'
             >
               <div className='opacity-0 group-hover:opacity-100 transition-all duration-500'>
@@ -124,7 +130,10 @@ const Work = () => {
           {/* ----------------------- LANDING PAGE WITH ANIMATIONS  ------------------------------- */}
           <div className='flex flex-wrap  w-[300px] gap-8 md:gap-6'>
             <div
-              style={{ backgroundImage: `url(${WorkImg3})` }}
+              style={{
+                backgroundImage: `url(${WorkImg3})`,
+                objectFit: 'cover',
+              }}
               className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center text-center mx-auto content-div p-3'
             >
               <div className='opacity-0 group-hover:opacity-100 transition-all duration-500'>
@@ -157,7 +166,10 @@ const Work = () => {
           {/* ----------------------- WEB APP  ------------------------------- */}
           <div className='flex flex-wrap  w-[300px] gap-8 md:gap-6'>
             <div
-              style={{ backgroundImage: `url(${WorkImg4})` }}
+              style={{
+                backgroundImage: `url(${WorkImg4})`,
+                objectFit: 'cover',
+              }}
               className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center text-center mx-auto content-div p-3'
             >
               <div className='opacity-0 group-hover:opacity-100 transition-all duration-500'>
@@ -190,7 +202,10 @@ const Work = () => {
           {/* ----------------------- DISNEY CLONE WEBSITE  ------------------------------- */}
           <div className='flex flex-wrap  w-[300px] gap-8 md:gap-6'>
             <div
-              style={{ backgroundImage: `url(${WorkImg5})` }}
+              style={{
+                backgroundImage: `url(${WorkImg5})`,
+                objectFit: 'cover',
+              }}
               className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center text-center mx-auto content-div p-3'
             >
               <div className='opacity-0 group-hover:opacity-100 transition-all duration-500'>
