@@ -1,6 +1,6 @@
 import React from 'react';
 import WorkImg from '../assets/store.png';
-import WorkImg1 from '../assets/movies.png';
+import WorkImg1 from '../assets/gamer.png';
 import WorkImg2 from '../assets/best.png';
 import WorkImg3 from '../assets/stopka.png';
 import WorkImg4 from '../assets/zakupy.png';
@@ -54,7 +54,7 @@ const Work = () => {
               </div>
             </div>
           </div>
-          {/* ----------------------- MOVIE APP ------------------------------- */}
+          {/* ----------------------- GAMES APP ------------------------------- */}
           <div className='flex flex-wrap  w-[300px] gap-8 md:gap-6'>
             <div
               style={{ backgroundImage: `url(${WorkImg1})` }}
@@ -62,11 +62,11 @@ const Work = () => {
             >
               <div className='opacity-0 group-hover:opacity-100 transition-all duration-500'>
                 <span className='text-2xl font-bold text-white tracking-wider'>
-                  Movies Search App
+                  GAMES LIST App with API Data Fetching
                 </span>
                 <div className='pt-8 text-center'>
                   <a
-                    href='https://movieapp-arek.netlify.app/'
+                    href='https://gamer-arek.netlify.app/'
                     target='_blank'
                     rel='noreferrer'
                   >
@@ -75,7 +75,7 @@ const Work = () => {
                     </button>
                   </a>
                   <a
-                    href='https://github.com/Arkadiusz-Adamowicz/MovieApp'
+                    href='https://github.com/Arkadiusz-Adamowicz/gamer'
                     target='_blank'
                     rel='noreferrer'
                   >
