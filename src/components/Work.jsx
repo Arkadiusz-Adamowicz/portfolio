@@ -129,43 +129,7 @@ const Work = () => {
               </div>
             </div>
           </div>
-          {/* ----------------------- WEB APP  ------------------------------- */}
-          <div className='flex flex-wrap  w-[400px] gap-8 md:gap-6'>
-            <div
-              style={{
-                backgroundImage: `url(${WorkImg4})`,
-                objectFit: 'cover',
-              }}
-              className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center text-center mx-auto content-div p-3'
-            >
-              <div className='opacity-0 group-hover:opacity-100 transition-all duration-500'>
-                <span className='text-2xl font-bold text-white tracking-wider'>
-                  Shop Assistant <br />
-                  App
-                </span>
-                <div className='pt-8 text-center'>
-                  <a
-                    href='https://zakupki-arek.netlify.app/'
-                    target='_blank'
-                    rel='noreferrer'
-                  >
-                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                      Demo
-                    </button>
-                  </a>
-                  <a
-                    href='https://github.com/Arkadiusz-Adamowicz/zakupki'
-                    target='_blank'
-                    rel='noreferrer'
-                  >
-                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                      Code
-                    </button>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
+
           {/* ----------------------- DISNEY CLONE WEBSITE  ------------------------------- */}
           <div className='flex flex-wrap  w-[400px] gap-8 md:gap-6'>
             <div

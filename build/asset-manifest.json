@@ -1,27 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.a163a43e.css",
-    "main.js": "/static/js/main.01743607.js",
-    "static/media/movie.png": "/static/media/movie.9984bf5230a1c7262733.png",
-    "static/media/netflix.png": "/static/media/netflix.604d1f418d9b947ab5c3.png",
-    "static/media/globe.png": "/static/media/globe.62fc0391b2a01766f0dc.png",
-    "static/media/weather.png": "/static/media/weather.8c353c8d9f67b49a3b69.png",
-    "static/media/defi.png": "/static/media/defi.f42070f5897cf536064d.png",
-    "static/media/crypto.png": "/static/media/crypto.83182ae45c4b5fecc249.png",
+    "main.css": "/static/css/main.2b50f302.css",
+    "main.js": "/static/js/main.a4885af0.js",
+    "static/media/gamer.png": "/static/media/gamer.b21647ac8a44c783be8d.png",
+    "static/media/best.png": "/static/media/best.f3be0b5c585da89a9557.png",
+    "static/media/disney.png": "/static/media/disney.d95f0ec2da8290c06fa9.png",
+    "static/media/store.png": "/static/media/store.cbe779bb5ae8791e2348.png",
+    "static/media/stopka.png": "/static/media/stopka.8a5bec3baf825d765366.png",
+    "static/media/zakupy.png": "/static/media/zakupy.f2a63d372fa07c0deed5.png",
+    "static/media/foto.jpeg": "/static/media/foto.e4b39b240635ba514e05.jpeg",
     "static/media/react.png": "/static/media/react.0cf951a69d8e58f83f9d.png",
-    "static/media/node.png": "/static/media/node.952a9ea986dcfa5229ad.png",
+    "static/media/netlify.webp": "/static/media/netlify.43805fa313b47cb46fae.webp",
     "static/media/github.png": "/static/media/github.3b9e32903aa89111875d.png",
     "static/media/html.png": "/static/media/html.2ba4fabc69a89a8f71e6.png",
     "static/media/tailwind.png": "/static/media/tailwind.e47ac876b8d4d0bba47a.png",
     "static/media/css.png": "/static/media/css.69a82c2d9e45c933a9cb.png",
-    "static/media/firebase.png": "/static/media/firebase.209703cedf1b1a96bc52.png",
+    "static/media/rapid.png": "/static/media/rapid.c3e6fe482a0f2f2bf2f0.png",
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/index.html",
-    "main.a163a43e.css.map": "/static/css/main.a163a43e.css.map",
-    "main.01743607.js.map": "/static/js/main.01743607.js.map"
+    "main.2b50f302.css.map": "/static/css/main.2b50f302.css.map",
+    "main.a4885af0.js.map": "/static/js/main.a4885af0.js.map"
   },
   "entrypoints": [
-    "static/css/main.a163a43e.css",
-    "static/js/main.01743607.js"
+    "static/css/main.2b50f302.css",
+    "static/js/main.a4885af0.js"
   ]
 }
